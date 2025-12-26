@@ -1,0 +1,63 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Oil', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 6rem;
+  color: #4ea6cc;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+.name-options {
+  margin: 1rem 0 2rem;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+}
+
+.name-chip {
+  border: none;
+  background: #eeeeee50;
+  padding: 8px 14px;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 1.1rem;
+  transition: background-color 0.15s, color 0.15s, transform 0.08s;
+}
+
+.name-chip:active { transform: scale(0.98); }
+
+.name-chip.active {
+  background: #4ECCA3;
+  color: #062023;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
